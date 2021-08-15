@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--верхняя линия-->
@@ -23,7 +26,7 @@
         >
         <ul class="main-nav list">
           <li class="main-nav-item header-item">
-            <a href="" class="link">Студия</a>
+            <a href="./index.html" class="link">Студия</a>
           </li>
           <li class="main-nav-item header-item">
             <a href="" class="link">Портфолио</a>
@@ -37,14 +40,14 @@
         <li>
           <a
             href="mailto:info@devstudio.com"
-            class="contacts-list-item link header-item"
+            class="header-contacts-item link"
             >info@devstudio.com</a
           >
         </li>
         <li>
           <a
             href="tel:+380961111111"
-            class="contacts-list-item link header-item"
+            class="header-contacts-item link"
             >+38 096 111 11 11</a
           >
         </li>
@@ -53,104 +56,104 @@
     <!--фильтр портфолио-->
     <main>
       <section>
-        <h2>Наши роботы фильтр</h2>
+        <h1>Наши роботы фильтр</h1>
         <ul class="list">
-          <li><button type="button" class="nav-button">Все</button></li>
-          <li><button type="button" class="nav-button">Веб-сайты</button></li>
-          <li><button type="button" class="nav-button">Приложения</button></li>
-          <li><button type="button" class="nav-button">Дизайн</button></li>
-          <li><button type="button" class="nav-button">Маркетинг</button></li>
+          <li class="filtr-item"><button type="button" class="filtr-button">Все</button></li>
+          <li class="filtr-item"><button type="button" class="filtr-button">Веб-сайты</button></li>
+          <li class="filtr-item"><button type="button" class="filtr-button">Приложения</button></li>
+          <li class="filtr-item"><button type="button" class="filtr-button">Дизайн</button></li>
+          <li class="filtr-item"><button type="button" class="filtr-button">Маркетинг</button></li>
         </ul>
         <ul class="list">
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img1.jpg"
               alt="наш роботы" />
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
+              <h2 class="example-of-projects">Технокряк</h2>
+              <p class="type-of-project">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img2.jpg"
               alt="наш роботы" />
-              <h3>Постер <span lang="en">Orlean vs Golden Star</span></h3>
-              <p>Веб-сайт</p>
+              <h2 class="example-of-projects">Постер <span lang="en">Orlean vs Golden Star</span></h2>
+              <p class="type-of-project">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img3.jpg"
               alt="наш роботы" />
-              <h3>Ресторан <span lang="en">Seafood</span></h3>
-              <p>Приложение</p>
+              <h2 class="example-of-projects">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="type-of-project">Приложение</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img4.jpg"
               alt="наш роботы" />
-              <h3>Проект <span lang="en">Prime</span></h3>
-              <p>Маркетинг</p>
+              <h2 class="example-of-projects">Проект <span lang="en">Prime</span></h2>
+              <p class="type-of-project">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img5.jpg"
               alt="наш роботы" />
-              <h3>Проект <span lang="en">Boxes</span></h3>
-              <p>Приложение</p>
+              <h2 class="example-of-projects">Проект <span lang="en">Boxes</span></h2>
+              <p class="type-of-project">Приложение</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img6.jpg"
               alt="наш роботы" />
-              <h3><span lang="en">Inspiration has no Borders</span></h3>
-              <p>Веб-сайт</p>
+              <h2 class="example-of-projects"><span lang="en">Inspiration has no Borders</span></h2>
+              <p class="type-of-project">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img7.jpg"
               alt="наш роботы" />
-              <h3>Издание <span lang="en">Limited Edition</span></h3>
-              <p>Дизайн</p>
+              <h2 class="example-of-projects">Издание <span lang="en">Limited Edition</span></h32>
+              <p class="type-of-project">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img8.jpg"
               alt="наш роботы" />
-              <h3>Проект <span lang="en">LAB</span></h3>
-              <p>Маркетинг</p>
+              <h2 class="example-of-projects">Проект <span lang="en">LAB</span></h2>
+              <p class="type-of-project">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="" class="link">
               <img width: 370px src="./images/portfolio_images/img9.jpg"
               alt="наш роботы" />
-              <h3><span lang="en">Growing Business</span></h3>
-              <p>Приложение</p>
+              <h2 class="example-of-projects"><span lang="en">Growing Business</span></h2>
+              <p class="type-of-project">Приложение</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <a href="/" class="logo link"
-        ><span class="first-part-of-logo">Web</span>Studio</a
+        ><span class="first-part-of-logo">Web</span><span class="footer-logo-second-part">Studio</span></a
       >
       <address class="footer-contacts">
         <ul class="list">
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
+          <li class="location">г. Киев, пр-т Леси Украинки, 26</li>
           <li>
-            <a href="mailto:info@example.com" class="contacts-list-item link"
+            <a href="mailto:info@example.com" class="footer-contacts-item link"
               >info@example.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="contacts-list-item link"
+            <a href="tel:+380961111111" class="footer-contacts-item link"
               >+38 096 111 11 11</a
             >
           </li>
