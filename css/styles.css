@@ -15,6 +15,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.header-item {
+  display: block;
+}
 
 .logo {
   font-family: Raleway;
@@ -23,10 +26,24 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  display: block;
 }
 .first-part-of-logo {
   color: var(--accent-color);
 }
+
+.head-conteiner {
+  display: flex;
+}
+
+.header-contacts-item {
+  display: block;
+}
+
+.nav-conteiner-item {
+  display: block;
+}
+
 .link {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -40,12 +57,23 @@ body {
 .list {
   list-style: none;
 }
+.active {
+  color: var(--accent-color);
+}
 .header-contacts-item {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav-conteiner {
+  display: flex;
 }
 
 /* стили легенд */
